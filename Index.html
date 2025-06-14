@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Web Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#">
+                                <img 
+                                src="resources/lexus-logo.png" 
+                                alt="Lexus"
+                                width="50px" 
+                                height="50px">
+                            </a>
+                        </li>
+                        <li>Home</li>
+                        <li>About us</li>
+                        <li>
+                            <a href="#">
+                                <img
+                                 src="resources/user.png" 
+                                alt="Perfil"
+                                width="50px"
+                                height="50px">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <hr>
+            <Main>
+                <h1>Lexus</h1>
+                <form action="/send-data">
+                    <label 
+                     for"email">
+                     Email
+                    </label>
+                    <input
+                     type="text"
+                     id="email" 
+                     placeholder="Email"
+                     required>
+                <br>
+                    <label 
+                     for"Password">
+                     Password
+                    </label>
+                    <input 
+                     type="password"
+                     id="password"
+                     placeholder="Password"
+                     required>
+                <br>
+                    <button type="submit">Submit</button>
+                <br>
+                    <label 
+                        for="terms">
+                        <input 
+                        id="terms" 
+                        type="radio"
+                        name="terms">
+                        He leido terminos y condiciones
+                    </label>
+                    <label 
+                        for="info-mail">
+                        <input 
+                        id="info-mail" 
+                        type="radio"
+                        name="terms">
+                        Quiero recibir informacion en mi correo electronico
+                    </label>
+                </form>
+            </Main>
+            <footer></footer>
+    </body>
+</html>
