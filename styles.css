@@ -1,8 +1,40 @@
+/*Gradient Background*/
 body{
     min-height: 100vh;
     margin: 0;
     background: linear-gradient(135deg, #00022b, #032461);
     font-family: Arial, sans-serif;
     color: #FFFFFF;
-    padding: 20px;
+    padding: 0px
+}
+header{ 
+    border-color: #FFFFFF;
+}
+/* Navigation Bar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0125;
+    width: 100%;
+    border-color: #FFFFFF;
+}
+.contaniner{
+    paddding: 20px;
+    max-width: 1200px;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+header nav ul li {
+    margin: 0 15px;
+}
+header nav ul li:last-child {
+    margin-left: auto;
 }
